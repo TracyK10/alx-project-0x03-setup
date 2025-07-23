@@ -33,7 +33,7 @@ Splash App is a modern, responsive web application built with Next.js, TypeScrip
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/TracyK10/alx-project-0x03-setup.git
    cd alx-project-0x03
    ```
 

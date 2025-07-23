@@ -1,40 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Splash App - AI-Powered Platform
 
-## Getting Started
+![Splash App Homepage](/alx-project-0x03/public/assets/images/home.png)
 
-First, run the development server:
+Splash App is a modern, responsive web application built with Next.js, TypeScript, and Tailwind CSS. It serves as a platform for AI-powered tools and features, providing users with an intuitive interface to interact with various AI capabilities.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Features
+
+- **Modern UI/UX**: Clean, responsive design built with Tailwind CSS
+- **Type Safety**: Full TypeScript support for better developer experience
+- **Component-Based Architecture**: Reusable UI components for maintainability
+- **Responsive Layout**: Works seamlessly on all device sizes
+- **Custom 404 Page**: Beautiful error page with helpful navigation
+- **Performance Optimized**: Built with Next.js for optimal performance
+
+## 📱 Screenshots
+
+### Homepage
+![Splash App Homepage](/alx-project-0x03/public/assets/images/home.png)
+
+### 404 Error Page
+![404 Error Page](/alx-project-0x03/public/assets/images/error.png)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18.0 or later
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd alx-project-0x03
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## 🛠️ Project Structure
+
+```
+alx-project-0x03/
+├── components/
+│   ├── common/           # Reusable UI components
+│   │   └── Button.tsx    # Custom button component
+│   └── layouts/          # Layout components
+│       ├── Footer.tsx    # Footer component
+│       ├── Header.tsx    # Header component
+│       └── Layout.tsx    # Main layout wrapper
+├── interface/            # TypeScript interfaces
+│   └── index.tsx         # Centralized type definitions
+├── pages/
+│   ├── _app.tsx          # Main App component
+│   ├── _document.tsx     # Custom Document
+│   ├── index.tsx         # Home page
+│   └── 404.tsx           # Custom 404 page
+├── public/               # Static files
+│   └── assets/
+│       └── images/       # Image assets
+├── styles/               # Global styles
+│   └── globals.css       # Global CSS with Tailwind
+└── package.json          # Project dependencies
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Styling
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+This project uses:
+- **Tailwind CSS** for utility-first styling
+- **React Icons** for iconography
+- Custom CSS in `globals.css` for global styles
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 🔍 Code Organization
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+- **Components**: Reusable UI components are organized by feature
+- **Interfaces**: TypeScript interfaces are centralized in the `interface` directory
+- **Pages**: Each route has its own file in the `pages` directory
+- **Styles**: Global styles and Tailwind configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Built With
 
-## Learn More
+- [Next.js](https://nextjs.org/) - The React Framework for Production
+- [TypeScript](https://www.typescriptlang.org/) - TypeScript is a typed superset of JavaScript
+- [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
+- [React Icons](https://react-icons.github.io/react-icons/) - Popular icons for React projects
 
-To learn more about Next.js, take a look at the following resources:
+## 🙏 Acknowledgments
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [React Icons](https://react-icons.github.io/react-icons/)
